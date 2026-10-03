@@ -15,7 +15,7 @@ cask "mimic" do
   # Mimic updates itself (Sparkle).
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Mimic.app"
   binary "#{appdir}/Mimic.app/Contents/MacOS/mimic"
