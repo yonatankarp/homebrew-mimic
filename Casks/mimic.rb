@@ -1,6 +1,6 @@
 cask "mimic" do
-  version "0.13.0"
-  sha256 "09da744f778097759c246844e54723fff88dec296a2c1599d219d0af5e6af0e6"
+  version "0.14.0"
+  sha256 "faf661cd9717bf5439a0574277d2cc43c65fa5bd7e48d72b83c0aaf4216904d8"
 
   url "https://github.com/yonatankarp/mimic/releases/download/v#{version}/Mimic-#{version}.dmg"
   name "Mimic"
